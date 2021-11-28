@@ -1,0 +1,30 @@
+.chatContainer {
+  width: 100%;
+  height: 80vh;
+  margin: auto;
+  padding: 10px 20px;
+  overflow: scroll;
+  
+  overflow-x: hidden;
+}
+
+.messageClass {
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+.userMessage {
+  /*background-color: #3B7FD9;*/
+  background-color: #8CAF5F;
+  color: #FFF;
+  margin-left: 50px;
+}
+
+.botMessage {
+  /*background-color: #E9ECF2;*/
+  background-color: #C7CFC3;
+  /*color: #789EBF;*/
+  color: #262626;
+  margin-right: 50px;
+}

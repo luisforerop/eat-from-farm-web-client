@@ -1,0 +1,13 @@
+.textonumeros{
+    width: 20%;
+    float: left;
+    background-color: bisque;
+}
+.bot{
+    width: 100%;
+    float: right;
+    background-color: aqua;
+}
+.conversaciones{
+    height: 83vh;
+}
