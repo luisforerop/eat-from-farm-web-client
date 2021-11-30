@@ -2,7 +2,7 @@
   width: 100%;
   height: 80vh;
   margin: auto;
-  padding: 10px 20px;
+  padding: 10px 100px;
   overflow: scroll;
   
   overflow-x: hidden;
@@ -15,16 +15,19 @@
 }
 
 .userMessage {
-  /*background-color: #3B7FD9;*/
-  background-color: #8CAF5F;
+  background-color: #3B7FD9;
   color: #FFF;
-  margin-left: 50px;
+  margin-left: 100px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 15px;
+
 }
 
 .botMessage {
-  /*background-color: #E9ECF2;*/
-  background-color: #C7CFC3;
-  /*color: #789EBF;*/
+  background-color: #E9ECF2;
+  color: #789EBF;
   color: #262626;
-  margin-right: 50px;
+  margin-right: 100px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 15px;
 }
